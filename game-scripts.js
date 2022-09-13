@@ -61247,7 +61247,7 @@ ArCamera.attributes.add("cameraCalibration", {
       (e.minWidth = "100%"),
       (e.minHeight = "100%"),
       (e.backgroundSize = "cover"),
-      (e.overflow = "hidden"),
+      (e.overflow = "visible"),
       (e.transform = "translate(-50%, -50%)"),
       (e.zIndex = "0"),
       document.body.appendChild(this.video),
